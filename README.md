@@ -39,9 +39,6 @@
 
 # 1. Pendahuluan — Penjelasan Studi Kasus
 
-> **Penulis Bagian**: Muhammad Rienchy Razak Simatupang (4524210068)
-> **Cakupan Slide**: Slide 1–3
-
 ## 1.1. Pengenalan Kasus
 
 Kasus yang diangkat dalam laporan ini adalah insiden penipuan yang menimpa **Arup**, sebuah perusahaan konsultan teknik multinasional berbasis di Inggris, yang terjadi di kantor cabangnya di Hong Kong pada Februari 2024. Nilai kerugian yang tercatat adalah sebesar **HK$200 juta** atau setara dengan kurang lebih **US$25,6 juta**. Yang membuat kasus ini menarik untuk dibedah bukanlah besaran nominalnya semata, melainkan **cara** uang tersebut berpindah tangan — sebuah modus yang, menurut saya, menandai titik balik dalam sejarah kejahatan siber.
