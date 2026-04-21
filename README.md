@@ -42,14 +42,76 @@
 > **Penulis Bagian**: Muhammad Rienchy Razak Simatupang (4524210068)
 > **Cakupan Slide**: Slide 1–3
 
-> 📝 **PLACEHOLDER — akan diisi**
->
-> Bagian ini mencakup:
-> - Pengenalan kasus Arup Hong Kong (Februari 2024, kerugian HK$200 juta / US$25,6 juta)
-> - Anatomi perampokan virtual dalam 4 fase: *Pancingan, Ilusi Realitas, Eksekusi, Sadar Tertipu*
-> - Pergeseran paradigma ancaman: dari meretas mesin menjadi meretas manusia
-> - Tabel komparasi serangan siber tradisional vs *social engineering via* AI
-> - Kutipan reflektif dari Rob Greig (CIO Arup)
+## 1.1. Pengenalan Kasus
+
+Kasus yang diangkat dalam laporan ini adalah insiden penipuan yang menimpa **Arup**, sebuah perusahaan konsultan teknik multinasional berbasis di Inggris, yang terjadi di kantor cabangnya di Hong Kong pada Februari 2024. Nilai kerugian yang tercatat adalah sebesar **HK$200 juta** atau setara dengan kurang lebih **US$25,6 juta**. Yang membuat kasus ini menarik untuk dibedah bukanlah besaran nominalnya semata, melainkan **cara** uang tersebut berpindah tangan — sebuah modus yang, menurut saya, menandai titik balik dalam sejarah kejahatan siber.
+
+Sebagai mahasiswa Teknik Informatika, ketika pertama kali membaca kasus ini, saya berasumsi akan menemukan jejak eksploitasi teknis yang familiar: celah pada firewall, kerentanan *zero-day*, atau mungkin serangan ransomware. Namun asumsi itu keliru. Tidak ada sistem yang diretas dalam pengertian konvensional. Tidak ada *payload* berbahaya yang disuntikkan, tidak ada kredensial yang dicuri lewat *brute force*, dan tidak ada port yang dieksploitasi. Justru di sinilah letak kegelisahan akademis saya — karena jika tidak ada sistem yang dijebol, maka apa sebenarnya yang diretas?
+
+Jawabannya, dan ini yang menjadi inti analisis saya di bagian ini, adalah **persepsi manusia itu sendiri**. Para penipu menggunakan teknologi *deepfake* — hasil dari *generative AI* — untuk mengkloning wajah dan suara sejumlah eksekutif Arup, termasuk CFO perusahaan, lalu menggelar sebuah rapat video palsu yang tampak sah secara total. Dalam konteks ini, judul laporan kami "**Hacking Reality**" terasa sangat tepat: yang diretas bukanlah mesin, melainkan **realitas** yang diterima oleh indra seorang karyawan.
+
+## 1.2. Anatomi Perampokan Virtual: Bagaimana HK$200 Juta Lenyap Tanpa Sistem Diretas
+
+Untuk memahami kompleksitas serangan ini, saya mencoba memecahnya menjadi empat fase yang saling berurutan. Pendekatan ini membantu saya melihat bahwa serangan tersebut bukan kejadian spontan, melainkan sebuah **operasi yang direncanakan dengan matang** dan sangat memahami psikologi korban.
+
+### 1.2.1. Fase Pancingan (*Baiting*)
+
+Serangan dimulai dengan email yang diterima seorang karyawan bagian keuangan di cabang Hong Kong. Email ini dibuat seolah-olah berasal dari **CFO Arup yang berbasis di Inggris**, dengan konten berupa permintaan transaksi yang bersifat rahasia.
+
+Menurut analisis saya, fase ini adalah bentuk *spear phishing* klasik, namun ada satu detail yang layak dicermati: sang karyawan sebenarnya *sempat curiga* terhadap email tersebut. Dalam banyak kasus *phishing* tradisional, kecurigaan ini biasanya cukup untuk menggagalkan serangan. Tapi tidak di sini. Justru kecurigaan itu yang dimanfaatkan oleh para pelaku sebagai **umpan untuk fase berikutnya** — mereka tahu karyawan akan meminta verifikasi, dan mereka telah menyiapkan verifikasi palsu yang tampak lebih meyakinkan daripada email aslinya.
+
+### 1.2.2. Fase Ilusi Realitas
+
+Untuk "meyakinkan" karyawan yang ragu tadi, pelaku mengundangnya ke sebuah **panggilan video grup**. Di dalam panggilan tersebut, hadir CFO dan beberapa eksekutif senior lainnya — atau setidaknya, begitulah yang terlihat di layar. Wajah dan suara mereka **dipalsukan secara sempurna oleh AI**.
+
+Ini adalah fase yang paling krusial dalam analisis saya. Karena secara psikologis, ketika seseorang meminta verifikasi, ekspektasi bawah sadarnya adalah bertemu dengan "realitas yang lebih tinggi" — misalnya suara langsung, atau lebih baik lagi, video langsung dengan wajah yang dikenal. Para pelaku memahami betul hierarki kepercayaan ini, lalu **membalikkannya menjadi senjata**. Karyawan yang tadinya curiga justru menjadi semakin yakin setelah melihat "wajah atasan" di layar, karena dalam benaknya, video *live* adalah bukti otentikasi yang jauh lebih kuat daripada teks.
+
+### 1.2.3. Fase Eksekusi
+
+Dengan keraguan yang telah terkikis habis, karyawan tersebut kemudian mengeksekusi instruksi yang diberikan dalam rapat palsu itu. Tercatat ada **15 transaksi finansial ke 5 rekening milik pelaku**, dengan total nilai HK$200 juta.
+
+Apa yang menarik perhatian saya di fase ini adalah **struktur transaksinya**. Angka 15 transaksi ke 5 rekening menurut saya bukan kebetulan — ini mengindikasikan pelaku sudah merancang pola *layering* dana sejak awal, kemungkinan untuk mempersulit pelacakan dan mengaburkan jejak uang setelah dana masuk. Artinya, lapisan kejahatannya bukan hanya penipuan berbasis AI, tapi juga disertai strategi pencucian uang yang terstruktur.
+
+### 1.2.4. Fase Sadar Tertipu
+
+Yang paling ironis, menurut pandangan saya, adalah bahwa penipuan ini **baru disadari beberapa hari kemudian**, ketika karyawan tersebut melakukan konfirmasi langsung ke kantor pusat. Jeda waktu ini adalah celah kritis yang menunjukkan satu hal: **prosedur verifikasi internal Arup saat itu tidak dirancang untuk menghadapi ancaman berbasis media sintetis**.
+
+Bagi saya, jeda beberapa hari sebelum penipuan disadari adalah pelajaran terpenting dari fase ini. Di dunia siber tradisional, deteksi intrusi bisa berjalan dalam hitungan detik karena ada *log*, *alert*, dan *anomaly detection*. Tapi dalam serangan rekayasa sosial berbasis AI, tidak ada *log* yang bisa dibaca — karena yang "diretas" adalah keputusan manusia, dan keputusan manusia tidak mencatat dirinya sendiri.
+
+## 1.3. Pergeseran Ancaman: Meretas Manusia, Bukan Mesin
+
+Bagian ini adalah inti dari argumen yang ingin saya sampaikan sebagai penulis: bahwa kasus Arup menandai **pergeseran paradigma** dalam dunia keamanan siber. Untuk memperjelas pergeseran ini, saya menyusun perbandingan antara serangan siber tradisional dengan pendekatan *social engineering via AI* seperti yang dialami Arup.
+
+### 1.3.1. Tabel Komparasi Paradigma Ancaman
+
+| Aspek | Serangan Siber Tradisional | *Social Engineering via* AI |
+|---|---|---|
+| **Target Utama** | Jaringan komputer, *password*, dan *server* data | Psikologi, kepercayaan, dan persepsi visual manusia |
+| **Senjata Serangan** | *Malware*, *ransomware*, dan injeksi kode berbahaya | Manipulasi realitas (kloning suara & video *deepfake*) |
+| **Status Sistem Internal** | *Firewall* dan keamanan perimeter berhasil dijebol | Sistem keamanan 100% aman dan sama sekali tidak tersentuh |
+
+### 1.3.2. Analisis Pergeseran
+
+Membaca tabel di atas, saya menarik beberapa kesimpulan yang cukup mengusik pemahaman saya sebelumnya tentang keamanan siber:
+
+**Pertama**, paradigma pertahanan tradisional menjadi kurang relevan bila diterapkan sendirian. Selama ini, perusahaan banyak berinvestasi pada *firewall*, sistem deteksi intrusi, enkripsi, dan *endpoint protection*. Semua itu penting, tapi dalam kasus Arup, **semua sistem itu bekerja dengan sempurna** — dan perusahaan tetap kehilangan HK$200 juta. Ini menurut saya adalah paradoks yang harus dijawab oleh industri keamanan siber: bagaimana mempertahankan sesuatu yang tidak pernah diserang?
+
+**Kedua**, vektor serangan telah berpindah dari **lapisan teknis** ke **lapisan kognitif**. Jika dulu seorang *attacker* harus memiliki kemampuan pemrograman tinggi untuk mengeksploitasi kerentanan sistem, hari ini ia cukup memiliki akses ke *tools generative AI* yang tersedia bebas di internet, ditambah kemampuan menyusun skenario sosial yang meyakinkan. Barrier teknis kejahatan siber menurun, sementara *damage potential*-nya meningkat drastis.
+
+**Ketiga**, dan ini yang paling penting menurut saya, **"sistem keamanan" perlu diredefinisikan**. Keamanan siber modern tidak bisa lagi didefinisikan sebatas integritas infrastruktur teknis. Ia harus mencakup **integritas informasi yang masuk ke indra karyawan** — artinya, pertahanan harus dirancang untuk mengasumsikan bahwa apa yang dilihat dan didengar dalam rapat virtual **mungkin saja palsu**.
+
+### 1.3.3. Kutipan Reflektif
+
+Untuk menutup bagian ini, kelompok kami memilih kutipan dari **Rob Greig, CIO Arup**, yang menurut saya merangkum seluruh pergeseran paradigma ini dalam satu kalimat:
+
+> *"Penipu tidak perlu merusak tembok keamanan perusahaan jika mereka bisa meyakinkan karyawan untuk membukakan pintunya."*
+> — **Rob Greig, CIO Arup**
+
+Kutipan ini, bagi saya pribadi, terasa seperti peringatan yang jauh melampaui kasus Arup sendiri. Ia berlaku untuk setiap organisasi yang masih percaya bahwa investasi keamanan siber cukup berhenti di lapisan perimeter teknis.
+
+## 1.4. Ringkasan Bagian Pendahuluan
+
+Kasus penipuan *deepfake* Arup bukanlah sekadar "kasus besar" karena nominalnya, melainkan **kasus penting** karena menjadi bukti empiris pertama dalam skala korporasi besar bahwa *generative AI* telah mengubah **definisi dasar dari apa yang disebut "peretasan"**. Bagian pendahuluan ini berfungsi sebagai fondasi konseptual untuk tiga analisis berikutnya — mulai dari **tanggung jawab pengembang AI di hulu**, **edukasi literasi digital di sisi pengguna**, hingga **kerangka deteksi teknis** yang dapat diterapkan sebagai pertahanan.
 
 ---
 
