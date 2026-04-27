@@ -1,4 +1,4 @@
-# Hacking Reality: Kasus Penipuan *Deepfake* $25 Juta di Arup Hong Kong
+# Kasus Penipuan *Deepfake* $25 Juta di Arup Hong Kong
 
 > **Laporan Analisis Studi Kasus Kejahatan Siber Era *Generative AI***
 > Analisis Tanggung Jawab Pengembang, Literasi Digital, dan Kerangka Deteksi
@@ -11,7 +11,7 @@
 |---|---|
 | **Mata Kuliah** | Etika Profesi A |
 | **Dosen Pengampu** | Adi Wahyu Pribadi, S.Si., M.Kom |
-| **Kelompok** | Kelompok 11 |
+| **Kelompok** | Kelompok 7 |
 | **Institusi** | Universitas Pancasila — Teknik Informatika |
 | **Semester** | Genap 2025/2026 |
 
@@ -114,9 +114,6 @@ Kasus penipuan *deepfake* Arup bukanlah sekadar "kasus besar" karena nominalnya,
 
 # 2. Analisis 1 — Tanggung Jawab Pengembang *Tools Generative AI*
 
-> **Penulis Bagian**: *(diisi oleh penulis bagian ini — NPM & Nama)*
-> **Cakupan Slide**: Slide 4 (*Analisis Hulu: Beban Moral Pembuat AI Generatif*)
-
 ## 2.1. Pengantar Analisis
 
 > 📝 **PLACEHOLDER — Silakan diisi**
@@ -136,6 +133,7 @@ Berdasarkan slide presentasi kami, ada empat pilar utama yang menjadi **beban mo
 > Poin inti: *Guardrails* (batasan keamanan) wajib ditanamkan di dalam kode dasar. Teknologi dilarang rilis tanpa filter pencegah peniruan identitas.
 >
 > **Yang bisa dianalisis di sini:**
+>
 > - Apa artinya "*ethics by design*" dalam konteks pengembangan model AI generatif?
 > - Contoh konkret *guardrails* yang sudah diterapkan di industri (misal: content filter OpenAI, voice cloning consent pada ElevenLabs).
 > - Apa yang menurut Anda kurang, dan bagaimana seharusnya?
@@ -147,6 +145,7 @@ Berdasarkan slide presentasi kami, ada empat pilar utama yang menjadi **beban mo
 > Poin inti: Akses ke model AI berkualitas tinggi harus dibatasi secara ketat agar tidak jatuh ke tangan sindikat kriminal terorganisir.
 >
 > **Yang bisa dianalisis di sini:**
+>
 > - Dilema antara *open source* vs *closed source* model AI.
 > - Kasus model yang bocor (misal: LLaMA weights leak, Stable Diffusion untuk *deepfake*).
 > - Bagaimana menyeimbangkan demokratisasi AI dengan pencegahan penyalahgunaan.
@@ -158,6 +157,7 @@ Berdasarkan slide presentasi kami, ada empat pilar utama yang menjadi **beban mo
 > Poin inti: Pengembang wajib menyisipkan tanda air digital (*digital watermark*) permanen yang menandai secara transparan bahwa konten tersebut adalah buatan AI.
 >
 > **Yang bisa dianalisis di sini:**
+>
 > - Bagaimana watermarking bekerja secara teknis (misal: SynthID dari Google DeepMind, C2PA standard).
 > - Tantangan teknis: watermark bisa dihapus atau rusak saat kompresi/editing.
 > - Apakah watermarking wajib diatur dalam regulasi pemerintah?
@@ -169,6 +169,7 @@ Berdasarkan slide presentasi kami, ada empat pilar utama yang menjadi **beban mo
 > Poin inti: Inovasi tidak boleh mengorbankan keamanan publik. Pengembang wajib menciptakan alat pendeteksi yang setara dengan kecanggihan AI ciptaannya.
 >
 > **Yang bisa dianalisis di sini:**
+>
 > - Analogi dengan prinsip *Hippocratic Oath* di dunia kedokteran.
 > - Apakah wajar kalau pengembang AI generatif juga wajib merilis alat deteksinya?
 > - Bagaimana kasus Arup menunjukkan bahwa asimetri antara AI *generator* dan AI *detector* menjadi masalah serius?
@@ -178,6 +179,7 @@ Berdasarkan slide presentasi kami, ada empat pilar utama yang menjadi **beban mo
 > 📝 **PLACEHOLDER — Silakan diisi**
 >
 > Tulis 2–3 paragraf yang mengaitkan keempat pilar di atas secara spesifik dengan kasus Arup. Pertanyaan pemantik:
+>
 > - Jika empat pilar ini sudah diterapkan sejak awal, apakah kasus Arup bisa dicegah?
 > - Siapa yang paling bertanggung jawab secara moral: pengembang, regulator, atau pengguna?
 > - Apa pelajaran yang bisa diambil untuk industri AI di Indonesia?
@@ -185,9 +187,6 @@ Berdasarkan slide presentasi kami, ada empat pilar utama yang menjadi **beban mo
 ---
 
 # 3. Analisis 2 — Edukasi Literasi Digital terkait *Generative AI*
-
-> **Penulis Bagian**: *(diisi oleh penulis bagian ini — NPM & Nama)*
-> **Cakupan Slide**: *(sesuaikan dengan slide terkait, kemungkinan Slide 5–6)*
 
 ## 3.1. Pengantar Analisis
 
@@ -223,6 +222,7 @@ Berdasarkan slide presentasi kami, ada empat pilar utama yang menjadi **beban mo
 > 📝 **PLACEHOLDER — Silakan diisi**
 >
 > Tulis 2–3 paragraf refleksi. Pertanyaan pemantik:
+>
 > - Seandainya karyawan Arup sudah dilatih untuk mengenali *deepfake*, apakah ia akan tetap tertipu?
 > - Apa bentuk literasi digital yang paling efektif: pelatihan formal, simulasi, atau budaya organisasi?
 > - Bagaimana kondisi literasi digital di Indonesia saat ini, dan apa yang perlu diperbaiki?
@@ -231,60 +231,49 @@ Berdasarkan slide presentasi kami, ada empat pilar utama yang menjadi **beban mo
 
 # 4. Analisis 3 — Kerangka Deteksi *Generative AI*
 
-> **Penulis Bagian**: *(diisi oleh penulis bagian ini — NPM & Nama)*
-> **Cakupan Slide**: *(sesuaikan dengan slide terkait, kemungkinan Slide 7–8)*
-
 ## 4.1. Pengantar Analisis
 
-> 📝 **PLACEHOLDER — Silakan diisi**
->
-> Bagian ini membahas **sisi teknis pertahanan**: bagaimana teknologi dapat digunakan untuk mendeteksi konten sintetis buatan *generative AI*. Mulailah dengan menjelaskan mengapa pendekatan deteksi teknis **harus melengkapi** dua pendekatan sebelumnya (tanggung jawab pengembang + literasi digital).
->
-> *Gaya penulisan: tulis seperti pendapat/analisis mahasiswa langsung, dengan sedikit kedalaman teknis karena penulis adalah mahasiswa Teknik Informatika.*
+Setelah membahas tanggung jawab moral pengembang di ranah hulu dan pentingnya edukasi literasi digital bagi pengguna, tibalah saatnya kita melihat garis pertahanan terakhir: **sistem deteksi di ranah hilir**. Seperti yang telah saya sampaikan sebelumnya, peretasan masa kini tidak lagi menargetkan *firewall*, melainkan kognisi manusia. Kesimpulan pahit yang harus kita terima adalah: **mengandalkan mata dan telinga manusia saja sudah tidak cukup** seiring kualitas *deepfake* yang semakin mendekati realitas.
+
+Sebagai mahasiswa Teknik Informatika, saya melihat bahwa pendekatan teknis tetap mutlak diperlukan untuk melengkapi kewaspadaan manusia. Kita tidak bisa hanya menyuruh karyawan untuk "berhati-hati"; kita harus membekali mereka dengan alat dan prosedur sistematis untuk membongkar ilusi digital tersebut. Oleh karena itu, kerangka deteksi yang komprehensif tidak hanya bertumpu pada perangkat lunak (*software*), tetapi juga pada "retasan" prosedural (taktik antar-manusia) yang mengeksploitasi kelemahan teknis *deepfake* itu sendiri.
 
 ## 4.2. Komponen Kerangka Deteksi
 
-> 📝 **PLACEHOLDER — Silakan isi sub-poin sesuai slide kelompok**
+Berdasarkan analisis arsitektur pertahanan dari presentasi kelompok kami, kerangka deteksi ini saya bagi menjadi dua lapisan utama: deteksi berbasis mesin dan deteksi prosedural manusia.
 
-### 4.2.1. *(Sub-judul sesuai slide)*
+### 4.2.1. Analisis Hilir: Melawan Mesin dengan Mesin
 
-> 📝 **PLACEHOLDER** — Uraikan isi sub-poin ini dengan gaya analisis mahasiswa.
-> Contoh arah pembahasan:
-> - **Deteksi berbasis AI** (menggunakan model klasifikasi untuk membedakan konten asli vs sintetis).
-> - **Analisis forensik** pada artefak visual/audio (misal: inkonsistensi pencahayaan, *lip-sync mismatch*, pola pernapasan).
-> - Model deteksi yang sudah tersedia: Microsoft Video Authenticator, Intel FakeCatcher, dsb.
+Lapisan pertama adalah menggunakan kecerdasan buatan untuk mendeteksi kecerdasan buatan lainnya. Pendekatan "*AI-to-AI Detection*" ini sangat logis karena mesin memiliki ketelitian piksel dan frekuensi yang jauh melampaui biologi mata manusia. Ada tiga metode utama di sini:
 
-### 4.2.2. *(Sub-judul sesuai slide)*
+1.  **Penggunaan *Discriminator* AI:** Mengadaptasi model *Generative Adversarial Networks* (GANs). Jika ada AI yang bertugas membuat gambar palsu (*Generator*), maka kita menggunakan algoritma pasangannya (*Discriminator*) secara independen untuk mendeteksi anomali mikroskopis yang luput dari pandangan mata biasa.
+2.  **Indikator Anomali Visual:** Sistem secara otomatis memindai aliran video *real-time* untuk mencari "*glitch*" teknis. AI saat ini masih kesulitan mempertahankan konsistensi spasial secara sempurna. Sistem pendeteksi akan mencari distorsi piksel halus di sekitar tepi wajah, pencahayaan yang tidak konsisten dengan latar belakang, pola kedipan mata yang kaku, atau ketidaksinkronan (*lip-sync*) antara audio dan gerakan bibir.
+3.  **Analisis Metadata Forensik:** Tidak hanya menganalisis visual, sistem yang baik harus memeriksa *header* paket data dan jejak digital tersembunyi dari asal muasal *stream* video tersebut untuk memverifikasi apakah ia benar-benar berasal dari kamera *webcam* asli atau diinjeksi melalui *virtual camera software*.
 
-> 📝 **PLACEHOLDER** — Uraikan isi sub-poin ini dengan gaya analisis mahasiswa.
-> Contoh arah pembahasan:
-> - **Verifikasi berbasis identitas kriptografis** (*digital signature*, *C2PA content credentials*).
-> - **Protokol *liveness detection*** untuk video call perusahaan.
-> - Penerapan *zero-trust* pada komunikasi internal.
+### 4.2.2. Lapisan Terakhir: Deteksi Prosedural Manusia
 
-### 4.2.3. *(Sub-judul sesuai slide)*
+Ini adalah bagian yang menurut saya paling menarik. Teknologi deteksi AI harganya sangat mahal dan rawan usang (*obsolete*) karena AI pembuat *deepfake* terus berkembang. Solusinya? **Langkah pencegahan taktis antar-manusia yang mengeksploitasi keterbatasan *rendering* AI saat ini.**
 
-> 📝 **PLACEHOLDER** — Uraikan isi sub-poin ini dengan gaya analisis mahasiswa.
-> Contoh arah pembahasan:
-> - **Kolaborasi lintas-sektor** (pemerintah + industri + akademisi).
-> - **Regulasi** pendukung (misal: EU AI Act, UU PDP di Indonesia).
-> - Roadmap implementasi di level organisasi.
+1.  **Metode *Challenge-Response*:** Meminta lawan bicara melakukan gerakan fisik acak secara spontan. Misalnya, meminta atasan di video call untuk menoleh cepat 90 derajat, atau menutupi sebagian wajahnya dengan tangan. Model *deepfake live* saat ini sangat kesulitan memproses oklusi (penutupan wajah) dan gerakan mendadak secara *real-time*, sehingga topeng digitalnya akan robek atau mengalami *glitch* parah.
+2.  ***Shared Secrets* (Kata Sandi Lisan):** Menerapkan kode rahasia atau *passphrase* yang disepakati sebelumnya dan hanya diketahui oleh lingkaran internal eksekutif saat menyetujui transaksi bernilai tinggi. Sesempurna apa pun AI meniru suara CFO, ia tidak akan tahu *passphrase* hari itu.
+3.  ***Out-of-Band Verification*:** Ini adalah aturan emas pertahanan siber. Jika sebuah instruksi darurat atau transfer dana besar datang dari satu jalur (misal: Zoom atau Email), verifikasi **wajib** dilakukan melalui jalur komunikasi yang sama sekali berbeda (misal: menelepon nomor seluler pribadi atasan tersebut melalui jaringan GSM biasa).
+
+### 4.2.3. Pendekatan *Zero Trust Environment*
+
+Semua komponen deteksi mesin dan taktik manusia di atas pada akhirnya bermuara pada satu arsitektur keamanan: ***Zero Trust***. Dalam ekosistem ini, filosofi dasarnya adalah: jangan pernah percaya siapa pun dan apa pun yang muncul di layar tanpa verifikasi independen yang berlapis. *Trust but verify* sudah usang; hari ini kita harus beralih ke *Verify first, then act*.
 
 ## 4.3. Refleksi dan Keterkaitan dengan Kasus Arup
 
-> 📝 **PLACEHOLDER — Silakan diisi**
->
-> Tulis 2–3 paragraf refleksi. Pertanyaan pemantik:
-> - Kerangka deteksi mana yang **paling realistis** diterapkan oleh perusahaan skala Arup?
-> - Mengapa bahkan dengan teknologi deteksi, kasus seperti Arup tetap bisa terjadi?
-> - Bagaimana peran mahasiswa informatika dalam mengembangkan alat deteksi *deepfake* di masa depan?
+Jika kita menarik kembali kerangka deteksi ini ke dalam kasus Arup, kesimpulannya sangat jelas: **seandainya satu saja dari taktik "Deteksi Prosedural Manusia" dijalankan, kerugian $25 Juta itu bisa dicegah**. 
+
+Seandainya karyawan Arup menerapkan *Out-of-Band Verification* dengan menelepon nomor pribadi sang CFO untuk mengonfirmasi instruksi *video call* tersebut, ilusi penipu akan langsung runtuh. Seandainya Arup memiliki budaya *Shared Secrets* untuk transaksi di atas batas tertentu, serangan itu akan gagal di menit pertama.
+
+Hal ini memberikan saya perspektif baru. Sebagai mahasiswa IT, kita sering kali terlalu fokus mencari solusi yang serba *high-tech* (seperti membangun model pendeteksi AI yang lebih canggih). Padahal, dalam kasus *social engineering*, *patch* keamanan terbaik sering kali bukanlah kode program, melainkan **SOP (Standar Operasional Prosedur)** sederhana yang memaksa terjadinya verifikasi silang. 
+
+Kasus Arup membuktikan bahwa di era *generative AI*, pertarungan sebenarnya bukan hanya antara algoritma melawan algoritma, tetapi antara kecepatan penipu memanipulasi emosi versus kedisiplinan korban dalam menjalankan prosedur keamanan operasional.
 
 ---
 
 # 5. Kesimpulan — Rangkuman
-
-> **Penulis Bagian**: *(diisi oleh penulis bagian ini — NPM & Nama)*
-> **Cakupan Slide**: Slide 9 (Kesimpulan/Penutup)
 
 ## 5.1. Rangkuman Temuan
 
