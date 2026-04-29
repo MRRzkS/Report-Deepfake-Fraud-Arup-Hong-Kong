@@ -277,27 +277,23 @@ Kasus Arup membuktikan bahwa di era *generative AI*, pertarungan sebenarnya buka
 
 ## 5.1. Rangkuman Temuan
 
-> 📝 **PLACEHOLDER — Silakan diisi**
->
-> Rangkum **inti dari keempat bagian sebelumnya** dalam 3–4 paragraf padat. Struktur yang disarankan:
->
-> 1. **Paragraf 1** — Rekap studi kasus Arup: apa yang terjadi, nilai kerugian, dan mengapa kasus ini signifikan.
-> 2. **Paragraf 2** — Rangkuman tiga analisis: tanggung jawab pengembang (hulu), literasi digital (tengah), dan kerangka deteksi (teknis).
-> 3. **Paragraf 3** — Benang merah ketiganya: mengapa pendekatan berlapis (*defense in depth*) adalah satu-satunya cara menghadapi ancaman AI generatif.
+Kasus perampokan virtual senilai $25 Juta di kantor Arup Hong Kong akan dicatat dalam sejarah sebagai tonggak pergeseran lanskap keamanan siber. Kasus ini mendemonstrasikan dengan sangat gamblang bahwa di era kecerdasan buatan, pelaku kejahatan tidak lagi perlu bersusah payah mencari celah pada infrastruktur jaringan yang kompleks. Dengan menggunakan *tools generative AI*, mereka langsung menargetkan kelemahan paling fundamental dalam sistem keamanan apa pun: indra dan kognisi manusia. Uang tersebut lenyap bukan karena *malware*, melainkan karena ilusi realitas yang diciptakan dengan sangat sempurna sehingga seorang karyawan keuangan yang taat prosedur pun bisa tertipu sepenuhnya.
+
+Untuk menghadapi ancaman yang tidak menyentuh lapisan *hardware* atau *software* secara tradisional ini, analisis kami menunjukkan bahwa pertahanan tunggal tidak akan pernah cukup. Kita membutuhkan Ekosistem Pertahanan Berlapis. Secara konseptual, ekosistem ini adalah irisan dari tiga elemen utama: inovasi regulasi dan teknologi di hulu (pengembang AI dengan *Ethics by Design*), pembangunan *Human Firewall* di tingkat operasional (karyawan yang skeptis dan proaktif), serta implementasi kerangka deteksi prosedural yang ketat di level organisasi.
+
+Titik temu dari ketiga elemen pertahanan tersebut melahirkan konsep utama di era AI ini, yaitu *Zero Trust Environment*. Di lingkungan ini, kepercayaan tidak lagi diberikan secara otomatis berdasarkan tampilan visual atau hierarki jabatan di dalam layar, melainkan murni berdasarkan proses verifikasi teknis dan prosedural yang berlapis-lapis dan independen. 
 
 ## 5.2. Pelajaran Kunci
 
-> 📝 **PLACEHOLDER — Silakan diisi**
->
-> Sajikan 3–5 pelajaran kunci (*key takeaways*) dalam bentuk daftar. Contoh format:
->
-> 1. **Pergeseran vektor serangan** — dari mesin ke manusia, menuntut redefinisi "keamanan siber".
-> 2. **Tanggung jawab berlapis** — pengembang, perusahaan, dan pengguna sama-sama punya peran.
-> 3. **(diisi)**
-> 4. **(diisi)**
+Dari seluruh analisis studi kasus di atas, saya merangkum empat pelajaran kunci (*key takeaways*) yang krusial untuk dipahami:
+
+1. **Melihat Tak Lagi Berarti Mempercayai** — Titik terlemah dari keamanan siber saat ini bergeser pada naluri  dasar manusia yang mudah percaya pada apa yang dilihat dan didengarnya. Arsitektur kepercayaan kita harus dibangun ulang.
+2. **Pergeseran Vektor Serangan** — Target utama serangan bukan lagi *server* data atau kata sandi, melainkan psikologi dan persepsi visual karyawan. Ini menuntut redefinisi total tentang apa arti "sistem keamanan".
+3. **Tanggung Jawab Berlapis (*Shared Responsibility*)** — Keamanan bukan hanya tugas tim IT. Pengembang AI wajib memberikan batasan keamanan, regulator wajib menetapkan aturan, dan organisasi wajib melatih manusianya.
+4. **Implementasi *Zero Trust*** — Kunci pertahanan operasional adalah meniadakan asumsi aman. Tidak ada permintaan transaksi, sekecil apa pun, yang boleh dieksekusi tanpa verifikasi eksternal (*out-of-band*).
 
 ## 5.3. Rekomendasi dan Penutup
 
-> 📝 **PLACEHOLDER — Silakan diisi**
->
-> Tulis rekomendasi konkret (untuk industri, pemerintah, institusi pendidikan, dan/atau mahasiswa), lalu tutup dengan paragraf penutup yang merefleksikan **posisi Anda sebagai calon profesional informatika** dalam menghadapi era *generative AI*.
+Sebagai calon profesional di bidang Teknik Informatika, studi kasus ini memberikan pandangan yang sangat berharga bagi saya dan kelompok. Rekomendasi konkret kami untuk dunia industri saat ini adalah segera merevisi SOP (*Standard Operating Procedure*) keuangan dan komunikasi internal dengan memasukkan protokol ancaman *deepfake*. Bagi institusi pendidikan, materi tentang etika AI dan deteksi media sintetis wajib diintegrasikan ke dalam kurikulum dasar.
+
+Pada akhirnya, kecepatan inovasi *Generative AI* akan selalu melampaui regulasi, dan alat penipuan akan selalu mencoba berlari lebih cepat dari alat pendeteksi. Oleh karena itu, lapis pertahanan yang paling bisa diandalkan pada akhirnya bukanlah algoritma enkripsi terkuat, melainkan manusia-manusia di balik layar komputer yang memiliki literasi tinggi, skeptisisme yang sehat, dan komitmen teguh pada prinsip verifikasi sebelum bertindak.
