@@ -150,42 +150,29 @@ Seandainya pengembang *tools* yang digunakan pelaku telah menanamkan *guardrails
 
 ## 3.1. Pengantar Analisis
 
-> 📝 **PLACEHOLDER — Silakan diisi**
->
-> Bagian ini membahas **sisi pengguna / korban**: bagaimana edukasi literasi digital dapat menjadi benteng pertahanan paling fundamental terhadap serangan berbasis *generative AI*. Mulailah dengan mengapa pelatihan keamanan siber konvensional **tidak cukup lagi** di era sekarang.
->
-> *Gaya penulisan: tulis seperti pendapat/analisis mahasiswa langsung agar konsisten dengan bagian sebelumnya.*
+Jika Analisis 1 berfokus pada pencegahan di hulu, Analisis 2 ini berfokus pada pertahanan di ranah operasional tengah, yaitu manusianya. Sistem firewall dan enkripsi terkuat sekalipun menjadi tidak berguna jika seseorang di dalam jaringan secara sukarela mentransfer dana kepada penipu. Dalam kasus Arup, kerentanan terbesarnya adalah persepsi karyawan. Oleh karena itu, edukasi literasi digital tidak bisa lagi sekadar mengajarkan "jangan klik tautan mencurigakan di email". Kita harus membangun apa yang disebut sebagai *Human Firewall* yang mampu beradaptasi terhadap ancaman manipulasi visual tingkat tinggi.
 
 ## 3.2. Pokok Bahasan Edukasi Literasi Digital
 
-> 📝 **PLACEHOLDER — Silakan isi sub-poin sesuai slide kelompok**
->
-> Contoh sub-bahasan yang bisa dikembangkan (silakan sesuaikan dengan slide asli):
+Membangun *Human Firewall* di era AI menuntut perubahan radikal dalam budaya dan pelatihan perusahaan. Berdasarkan kajian kami, ada tiga fondasi utama yang harus diterapkan.
 
-### 3.2.1. *(Sub-judul sesuai slide)*
+### 3.2.1. Kesadaran Ekstrem (Mengubah Paradigma)
 
-> 📝 **PLACEHOLDER** — Uraikan isi sub-poin ini dengan gaya analisis mahasiswa.
-> Misalnya bisa tentang: **Kesadaran akan ancaman *deepfake***, pengenalan ciri-ciri video/suara sintetis, atau contoh latihan simulasi *phishing* modern.
+Langkah pertama adalah menghancurkan asumsi lama. Di era pra-AI, kita diajarkan bahwa melihat secara langsung melalui video call adalah bentuk verifikasi tertinggi. Sekarang, paradigma dasar itu harus diubah total: **sebuah video call langsung tidak lagi menjadi jaminan 100% keaslian identitas**. Karyawan harus dilatih untuk memiliki kesadaran ekstrem ini. Sama seperti perusahaan rutin melakukan simulasi kebakaran atau *phishing email*, simulasi ancaman *deepfake live* wajib dilakukan secara rutin agar karyawan merasakan langsung betapa nyatanya ilusi tersebut.
 
-### 3.2.2. *(Sub-judul sesuai slide)*
+### 3.2.2. Protokol Proaktif (*Verify First, Then Act*)
 
-> 📝 **PLACEHOLDER** — Uraikan isi sub-poin ini dengan gaya analisis mahasiswa.
-> Misalnya bisa tentang: **Protokol verifikasi berlapis** (*multi-channel verification*), aturan "jangan pernah mentransfer dana hanya berdasarkan instruksi video call", atau budaya "*trust but verify*" di lingkungan kerja.
+Literasi digital tidak hanya soal pengetahuan, tapi juga soal prosedur. Perusahaan harus menanamkan prinsip operasional dasar: *Verify First, Then Act*. Artinya, setiap instruksi transaksi yang bersifat darurat, rahasia, atau bernilai besar yang diterima melalui layar (baik teks, suara, maupun video) **wajib divetifikasi ulang secara independen**. Prosedur ini menghilangkan elemen "ketergesa-gesaan" yang sering dieksploitasi oleh pelaku rekayasa sosial.
 
-### 3.2.3. *(Sub-judul sesuai slide)*
+### 3.2.3. Budaya Skeptis (Menciptakan *Safe Space*)
 
-> 📝 **PLACEHOLDER** — Uraikan isi sub-poin ini dengan gaya analisis mahasiswa.
-> Misalnya bisa tentang: **Peran institusi pendidikan** dalam mengintegrasikan literasi AI ke kurikulum, atau **tanggung jawab perusahaan** dalam rutinitas pelatihan karyawan.
+Menurut analisis saya, ini adalah poin literasi yang paling menantang karena bersinggungan dengan hierarki perusahaan. Karyawan keuangan Arup di Hong Kong mungkin merasa tertekan untuk segera mematuhi instruksi orang yang terlihat seperti CFO Global perusahaannya. Literasi digital yang sukses membutuhkan ruang aman psikologis (*psychological safe space*). Karyawan harus merasa aman secara etis, dan bahkan didukung penuh oleh perusahaan, untuk bersikap skeptis dan mempertanyakan instruksi atasan yang terasa ganjil, tanpa takut terkena sanksi atau teguran.
 
 ## 3.3. Refleksi dan Keterkaitan dengan Kasus Arup
 
-> 📝 **PLACEHOLDER — Silakan diisi**
->
-> Tulis 2–3 paragraf refleksi. Pertanyaan pemantik:
->
-> - Seandainya karyawan Arup sudah dilatih untuk mengenali *deepfake*, apakah ia akan tetap tertipu?
-> - Apa bentuk literasi digital yang paling efektif: pelatihan formal, simulasi, atau budaya organisasi?
-> - Bagaimana kondisi literasi digital di Indonesia saat ini, dan apa yang perlu diperbaiki?
+Menganalisis lebih dalam jatuhnya korban di Arup, saya melihat bahwa sang karyawan sebenarnya sudah menunjukkan literasi digital dasar: ia sempat curiga dengan email awal. Kesalahannya terjadi karena edukasi yang ia terima berhenti di sana. Ketika penipu menaikkan eskalasi ke *video call*, sang karyawan kehilangan skeptisismenya karena matanya menipu logikanya.
+
+Seandainya Arup telah menanamkan "Budaya Skeptis" yang kuat dan karyawan tersebut merasa memiliki wewenang penuh untuk melakukan *cross-check* independen (misalnya, berani meminta CFO untuk menyebutkan kata sandi rahasia atau sekadar menelepon ke nomor ekstensi kantornya), penipuan ini tidak akan terjadi. Kasus ini menegaskan bahwa pelatihan literasi siber tidak boleh lagi hanya diajarkan setahun sekali oleh tim IT, melainkan harus menjadi DNA operasional sehari-hari bagi setiap lapisan manajemen.
 
 ---
 
