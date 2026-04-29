@@ -116,73 +116,33 @@ Kasus penipuan *deepfake* Arup bukanlah sekadar "kasus besar" karena nominalnya,
 
 ## 2.1. Pengantar Analisis
 
-> 📝 **PLACEHOLDER — Silakan diisi**
->
-> Bagian ini membahas **dari sudut pandang hulu**: siapa yang harus bertanggung jawab ketika teknologi *generative AI* disalahgunakan? Mulailah dengan paragraf pembuka yang menjelaskan mengapa pencegahan harus dimulai dari tingkat **kode dan etika pengembang teknologi**, bukan dari sisi pengguna.
->
-> *Gaya penulisan: tulis seperti pendapat/analisis mahasiswa langsung (gunakan kata "saya", "menurut analisis saya", "bagi saya pribadi", dsb.).*
+Dalam membedah kasus Arup, analisis pertama saya menyoroti sumber dari segala ancaman ini: hulu pengembangan teknologi AI itu sendiri. Ketika kerugian mencapai $25 Juta terjadi akibat penyalahgunaan teknologi yang dibuat oleh pihak ketiga, muncul pertanyaan etis yang mendasar: siapa yang harus bertanggung jawab? Bagi saya pribadi, pencegahan kejahatan *generative AI* tidak bisa hanya dibebankan kepada pengguna akhir (korban). Pencegahan harus dimulai dari tingkat kode dan etika pengembang teknologi. Ada "beban moral" yang tidak boleh diabaikan oleh para pencipta model AI ini.
 
 ## 2.2. Empat Pilar Tanggung Jawab Pengembang
 
-Berdasarkan slide presentasi kami, ada empat pilar utama yang menjadi **beban moral** bagi para pengembang *tools generative AI*.
+Berdasarkan analisis arsitektur keamanan, saya merangkum empat pilar utama yang wajib diimplementasikan oleh pengembang *tools generative AI* untuk mencegah insiden serupa.
 
 ### 2.2.1. *Ethics by Design*
 
-> 📝 **PLACEHOLDER — Silakan diisi**
->
-> Poin inti: *Guardrails* (batasan keamanan) wajib ditanamkan di dalam kode dasar. Teknologi dilarang rilis tanpa filter pencegah peniruan identitas.
->
-> **Yang bisa dianalisis di sini:**
->
-> - Apa artinya "*ethics by design*" dalam konteks pengembangan model AI generatif?
-> - Contoh konkret *guardrails* yang sudah diterapkan di industri (misal: content filter OpenAI, voice cloning consent pada ElevenLabs).
-> - Apa yang menurut Anda kurang, dan bagaimana seharusnya?
+Pilar pertama adalah menanamkan etika langsung ke dalam arsitektur perangkat lunak. Artinya, batasan keamanan (*guardrails*) wajib ditanamkan di dalam kode dasar sejak fase perancangan, bukan ditambahkan sebagai *patch* setelah teknologi dirilis. Menurut saya, sebuah teknologi pembuat video atau peniru suara dilarang keras untuk dirilis ke publik jika belum dilengkapi dengan filter pencegah peniruan identitas tokoh publik atau eksekutif perusahaan tanpa persetujuan (izin) eksplisit.
 
 ### 2.2.2. Kendali Akses Ketat
 
-> 📝 **PLACEHOLDER — Silakan diisi**
->
-> Poin inti: Akses ke model AI berkualitas tinggi harus dibatasi secara ketat agar tidak jatuh ke tangan sindikat kriminal terorganisir.
->
-> **Yang bisa dianalisis di sini:**
->
-> - Dilema antara *open source* vs *closed source* model AI.
-> - Kasus model yang bocor (misal: LLaMA weights leak, Stable Diffusion untuk *deepfake*).
-> - Bagaimana menyeimbangkan demokratisasi AI dengan pencegahan penyalahgunaan.
+Saat ini, kita melihat tren demokratisasi AI di mana model *open-source* dengan kualitas tinggi tersebar bebas di internet. Meskipun baik untuk inovasi, dari kacamata keamanan siber, akses ke model AI berkualitas tinggi (terutama *voice cloning* dan *video generation*) harus dibatasi secara ketat. Pengembang harus menerapkan proses verifikasi pengguna berlapis (KYC) agar *tools* canggih ini tidak dengan mudah jatuh ke tangan sindikat kriminal terorganisir yang mampu menyusun operasi perampokan virtual berskala besar seperti di Hong Kong.
 
 ### 2.2.3. Sistem *Watermarking*
 
-> 📝 **PLACEHOLDER — Silakan diisi**
->
-> Poin inti: Pengembang wajib menyisipkan tanda air digital (*digital watermark*) permanen yang menandai secara transparan bahwa konten tersebut adalah buatan AI.
->
-> **Yang bisa dianalisis di sini:**
->
-> - Bagaimana watermarking bekerja secara teknis (misal: SynthID dari Google DeepMind, C2PA standard).
-> - Tantangan teknis: watermark bisa dihapus atau rusak saat kompresi/editing.
-> - Apakah watermarking wajib diatur dalam regulasi pemerintah?
+Ini adalah solusi teknis yang sangat krusial. Setiap pengembang AI generatif wajib menyisipkan tanda air digital (*digital watermark*) yang permanen dan sulit dimanipulasi pada setiap *output* yang dihasilkan. Metadata transparan ini akan menandai secara pasti bahwa sebuah konten video atau audio adalah buatan mesin, bukan rekaman organik. Jika standar ini diwajibkan oleh regulasi, sistem keamanan korporat akan jauh lebih mudah memfilter panggilan video palsu sebelum mencapai karyawan.
 
 ### 2.2.4. Prinsip *Do No Harm*
 
-> 📝 **PLACEHOLDER — Silakan diisi**
->
-> Poin inti: Inovasi tidak boleh mengorbankan keamanan publik. Pengembang wajib menciptakan alat pendeteksi yang setara dengan kecanggihan AI ciptaannya.
->
-> **Yang bisa dianalisis di sini:**
->
-> - Analogi dengan prinsip *Hippocratic Oath* di dunia kedokteran.
-> - Apakah wajar kalau pengembang AI generatif juga wajib merilis alat deteksinya?
-> - Bagaimana kasus Arup menunjukkan bahwa asimetri antara AI *generator* dan AI *detector* menjadi masalah serius?
+Di dunia kedokteran, ada sumpah untuk tidak membahayakan pasien. Saya berpendapat bahwa pengembang AI juga membutuhkan prinsip serupa: inovasi tidak boleh mengorbankan keamanan publik. Jika sebuah perusahaan teknologi merilis generator AI yang sangat realistis, maka pengembang tersebut wajib menciptakan dan merilis alat pendeteksinya yang memiliki kecanggihan setara. Tidak adil jika publik dilepas begitu saja untuk membedakan realitas di tengah gempuran ilusi buatan mesin.
 
 ## 2.3. Refleksi dan Keterkaitan dengan Kasus Arup
 
-> 📝 **PLACEHOLDER — Silakan diisi**
->
-> Tulis 2–3 paragraf yang mengaitkan keempat pilar di atas secara spesifik dengan kasus Arup. Pertanyaan pemantik:
->
-> - Jika empat pilar ini sudah diterapkan sejak awal, apakah kasus Arup bisa dicegah?
-> - Siapa yang paling bertanggung jawab secara moral: pengembang, regulator, atau pengguna?
-> - Apa pelajaran yang bisa diambil untuk industri AI di Indonesia?
+Jika kita mengaitkan keempat pilar di atas dengan insiden Arup, sangat jelas bahwa ekosistem AI saat ini masih cacat secara etis. Pelaku penipuan mampu memalsukan wajah dan suara CFO Arup secara presisi karena mereka memiliki akses bebas ke *tools* yang tidak memiliki perlindungan *Ethics by Design* dan tanpa kendali akses yang memadai. 
+
+Seandainya pengembang *tools* yang digunakan pelaku telah menanamkan *guardrails* yang mencegah kloning identitas figur korporat, atau menyematkan *watermark* digital yang langsung memicu alarm pada sistem jaringan Arup, maka penipuan senilai HK$200 juta ini bisa digagalkan bahkan sebelum rapat video itu dimulai. Pelajaran berharganya adalah: inovasi tanpa pagar pembatas adalah senjata makan tuan.
 
 ---
 
