@@ -5,6 +5,10 @@
 
 ---
 
+<a href="https://www.youtube.com/watch?v=6kjkMjgt20s" target="_blank">
+  <img src="https://img.youtube.com/vi/6kjkMjgt20s/maxresdefault.jpg" alt="Tonton Videonya" width="100%">
+</a>
+
 ## 🎓 Identitas Laporan
 
 | Keterangan | Detail |
